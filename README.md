@@ -19,6 +19,8 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
-Code is licensed under the Apache 2.0 license.
+Code is licensed under the Apache 2.0 license.   
 
-
+Part1  
+1. Change the title in html to make it more trenchant to readers.   
+2. Replace the original page style inside html(if exists) with link to the new style.css I create   
