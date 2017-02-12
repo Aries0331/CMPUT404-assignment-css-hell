@@ -20,7 +20,9 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.   
-
+   
+HTML change:
+=================   
 Part1  
 1. Change the title in html to make it more trenchant to readers.   
 2. Replace the original page style inside html(if exists) with link to the new style.css I create   
