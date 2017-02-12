@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+}
+
+.blender {
+  position: absolute;
+  width: 100%;
+  height: 2.5em;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(240,230,140, 0.1);
+}
+
+.navi {
+  position: relative;;
+  width: 100%;
+
+  left: 0;
+  right: 0;
+
+  margin-top: 2em;;
+
+  background-color: white;
+  background-color: rgba(240, 255, 255, 0.8);
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.list {
+  text-align: center;
+  margin-right: 4em;
+  /*background-color: rgba(173, 216, 230,0.5);*/
+}
+
+.guide > * > li {
+  display: inline-block;
+  margin-left: 2em;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  position: relative;
+}
+
+.sidebar {
+  position: relative;
+  background-color: rgba(211, 211, 211, 0.2);
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.main {
+  position: relative;
+}
+
+.h2 {
+  font-family: Verdana, sans-serif;
+}
+
+.AboutMe {
+  position: relative;
+  float: left;
+  margin-left: 5em;
+}
