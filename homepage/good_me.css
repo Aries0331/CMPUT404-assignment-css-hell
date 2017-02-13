@@ -2,6 +2,10 @@ html, body {
   height: 100%;
 }
 
+a {
+  color: #000000;
+}
+
 .blender {
   position: absolute;
   width: 100%;
@@ -31,10 +35,19 @@ h1, h3 {
   text-align: center;
 }
 
+h1 {
+  font-size: 400%;
+  font-family: Verdana, sans-serif;
+}
+
 .list {
   text-align: center;
   margin-right: 4em;
   /*background-color: rgba(173, 216, 230,0.5);*/
+}
+
+.guide {
+  padding-top: 5em;
 }
 
 .guide > * > li {
@@ -49,23 +62,55 @@ img {
 }
 
 .sidebar {
+  float: left;
   position: relative;
   background-color: rgba(211, 211, 211, 0.2);
   width: 20%;
-  height: 100%;
-  float: left;
+  height: 70em;
 }
 
-.main {
-  position: relative;
+.sidebar > * > li {
+  margin-bottom: 1em;
 }
 
-.h2 {
-  font-family: Verdana, sans-serif;
-}
-
-.AboutMe {
+#introduction {
   position: relative;
   float: left;
-  margin-left: 5em;
+  margin-left: 2em;
+  width: 60%;
+  line-height: 200%;
+  font-size: 110%;
+}
+
+#professional {
+  position: relative;
+  float: right;
+  margin-top: 2em;
+  margin-right: 2em;
+  width: 60%;
+  text-align: right;
+  font-size: 110%;
+}
+
+#skills {
+  position: relative;
+  float: left;
+  margin-top: 2em;
+  margin-left: 2em;
+  width: 60%;
+  font-size: 110%;
+}
+
+#contact {
+  position: relative;
+  float: right;
+  margin-top: 2em;
+  margin-right: 2em;
+  width: 60%;
+  text-align: right;
+  font-size: 110%;
+}
+
+h2 {
+  font-size: 200%;
 }
