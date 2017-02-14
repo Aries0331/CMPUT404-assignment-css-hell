@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-color: rgba(240,255,240,0.2);
+  background-color: rgba(240,255,240,0.4);
 }
 
 a {
@@ -48,12 +48,16 @@ h1 {
 }
 
 .guide {
-  padding-top: 5em;
+  padding-top: 4em;
 }
 
 .guide > * > li {
   display: inline-block;
   margin-left: 2em;
+}
+
+nav a:hover {
+  background-color: GreenYellow;
 }
 
 img {
@@ -73,6 +77,10 @@ img {
 
 .sidebar > * > li {
   margin-bottom: 1em;
+}
+
+.sidebar a:hover {
+  background-color: yellow;
 }
 
 #introduction {
@@ -120,6 +128,6 @@ h2 {
   font-size: 200%;
 }
 
-.main {
-  border: solid;
+hr {
+  margin-top: 3em;
 }
