@@ -47,3 +47,11 @@ hr  {
   margin-left: 15%;
   margin-bottom: .75em;
 }
+
+a:hover {
+  background-color: yellow;
+}
+
+a:visited {
+  color: red;
+}
