@@ -124,6 +124,20 @@ span {
   font-size: 110%;
 }
 
+#footer {
+  position: relative;
+  float: right;
+  margin-bottom: 0;
+  margin-right: 2em;
+}
+
+#footer p{
+  position: relative;
+  margin-bottom: 0;
+  font-size: 80%;
+  color: #A9A9A9;
+}
+
 h2 {
   font-size: 200%;
 }
